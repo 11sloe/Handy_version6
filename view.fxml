@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="317.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextArea fx:id="txtArea" editable="false" layoutX="34.0" layoutY="42.0" prefHeight="180.0" prefWidth="251.0" text="Hier steht meine " wrapText="true" />
+      <TextField fx:id="txtFeld" layoutX="34.0" layoutY="289.0" onKeyPressed="#txtFieldHandler" prefHeight="25.0" prefWidth="251.0" text="nachr" />
+      <HBox layoutX="34.0" layoutY="242.0" spacing="10.0">
+         <children>
+            <Button fx:id="button1" maxWidth="100.0" mnemonicParsing="false" onAction="#button1Handler" text="nachr" />
+            <Button fx:id="button2" mnemonicParsing="false" onAction="#button2Handler" text="Nachricht" />
+            <Button fx:id="button3" mnemonicParsing="false" onAction="#button3Handler" text="Nachrichten" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
